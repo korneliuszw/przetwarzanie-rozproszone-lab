@@ -3,11 +3,13 @@
 ## Laboratorium 1
 
 ### Co będzie potrzebne na zajęciach:
-|   | Wymagania:            |                   |
-|---|---                    |---                |
-|1. | System operacyjny:    | Linux (zalecany)  |
-|2. | Kompilator:           | gcc               |
-|3. | Edytor tekstowy:      | <i> dowolny </i>  |
+|   | Wymagania:            |                   |           |
+|---|---                    |---                |---        |
+|1. | System operacyjny:    | Linux             |(zalecany) |
+|2. | Interfejs powłoki:    | Terminal          |(zalecany) |
+|3. | Interpreter poleceń:  | Bash              |(zalecany) |
+|4. | Kompilator:           | gcc               |(zalecany) |
+|5. | Edytor tekstowy:      | <i> dowolny </i>  |           |
 
 ### Zadanie do wykonania:
 
@@ -39,11 +41,13 @@ Snippet kodu, jak to ma wyglądać w przypadku struktury typu Stack jest zamiesz
 ## Laboratorium 2
 
 ### Co będzie potrzebne na zajęciach:
-|   | Wymagania:            |                           |
-|---|---                    |---                        |
-|1. | System operacyjny:    | Linux (<b>wymagany</b>)   |
-|2. | Kompilator:           | gcc                       |
-|3. | Edytor tekstowy:      | <i> dowolny </i>          |
+|   | Wymagania:            |                   |           |
+|---|---                    |---                |---        |
+|1. | System operacyjny:    | Linux             |(wymagany) |
+|2. | Interfejs powłoki:    | Terminal          |(zalecany) |
+|3. | Interpreter poleceń:  | Bash              |(zalecany) |
+|4. | Kompilator:           | gcc               |(zalecany) |
+|5. | Edytor tekstowy:      | <i> dowolny </i>  |           |
 
 ### Teoria
 
@@ -113,3 +117,42 @@ oraz umieszczony w odpowiednich dla nich miejscach w katalogu projektu. Następn
 3. Brak wycieków pamięci (za to będą odejmowane punkty)
 4. Przesłanie skompresowanego katalogu z projektem (lab2.tar) na E-Nauczanie
    
+## Laboratorium 3
+
+### Co będzie potrzebne na zajęciach:
+|   | Wymagania:            |                   |           |
+|---|---                    |---                |---        |
+|1. | System operacyjny:    | Linux             |(wymagany) |
+|2. | Interfejs powłoki:    | Terminal          |(zalecany) |
+|3. | Interpreter poleceń:  | Bash              |(zalecany) |
+|4. | Kompilator:           | gcc               |(zalecany) |
+|5. | Edytor tekstowy:      | <i> dowolny </i>  |           |
+
+<b>Warunki zaliczenia:</b>
+
+1. Zapoznanie się z tematem laboratorium WIELOPROCESOWOŚĆ W SYSTEMIE UNIX w pliku `skrypt.pdf`
+2. Przetestowanie w praktyce zawartych tam komend
+3. Umiejętność odpowiedzi na 3 losowe pytania z puli pytań znajdujących się w pliku `lab3/README.md`
+4. Jedna poprawna odpowiedź to 4 punkty, 2 poprawne to 7 punktów, 3 poprawne to 10 punktów
+5. Nie jest wymaganie przesyłanie żadnego rozwiązania na E-Nauczanie
+6. W razie nieobecności studenta na zajęciach, istnieje możliwość napisania odpowiedzi na pytania i przesłanie je na E-Nauczanie, wymóg jest jednak następujący: student musi odpowiedzieć na dowolne 10 z 15 pytań, każde pytanie jest oceniane za 1 punkt
+
+## Laboratorium 4
+
+### Co będzie potrzebne na zajęciach:
+|   | Wymagania:            |                   |           |
+|---|---                    |---                |---        |
+|1. | System operacyjny:    | Windows           |(wymagany) |
+|2. | Interfejs powłoki:    | PowerShell        |(wymagany) |
+|3. | Interpreter poleceń:  | PowerShell        |(wymagany) |
+|4. | Kompilator:           | MinGW             |(wymagany) |
+|5. | Edytor tekstowy:      | <i> dowolny </i>  |           |
+
+<b>Warunki zaliczenia:</b>
+
+1. Zapoznanie się z tematem laboratorium WIELOPROCESOWOŚĆ W SYSTEMIE UNIX w pliku `skrypt.pdf`
+2. Przetestowanie w praktyce zawartych tam komend
+3. Umiejętność odpowiedzi na 3 losowe pytania z puli pytań znajdujących się w pliku `lab4/README.md`
+4. Jedna poprawna odpowiedź to 4 punkty, 2 poprawne to 7 punktów, 3 poprawne to 10 punktów
+5. Nie jest wymaganie przesyłanie żadnego rozwiązania na E-Nauczanie
+6. W razie nieobecności studenta na zajęciach, istnieje możliwość napisania odpowiedzi na pytania i przesłanie je na E-Nauczanie, wymóg jest jednak następujący: student musi odpowiedzieć na dowolne 10 z 15 pytań, każde pytanie jest oceniane za 1 punkt
