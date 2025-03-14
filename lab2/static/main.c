@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include "stack.h"
-#include "utils.h"
+//#include <stack.h>
+#include <utils.h>
 
 int main() {
     // initialize the stack as empty

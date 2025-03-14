@@ -1,6 +1,17 @@
-/*
-    TODO:
-    1. - include 'stack' data structure header file
-    2. - define function to push a value onto the stack
-    3. - define function to pop last value from top of the stack
-*/
+#include <stack.h>
+#include <stdlib.h>
+
+void push(StackNode** stack, int val) {
+	StackNode* node = malloc(sizeof(StackNode));
+	node->next = *stack;
+	node->value = val;
+	*stack = node;
+}
+
+int pop(StackNode** stack) {
+	int val = (*stack)->value;
+	StackNode* old = *stack;
+	*stack = old->next;
+	free(old);
+	return val;
+}

@@ -1,5 +1,10 @@
-/*
-    TODO:
-    1. - include 'stack' data structure header file
-    2. - define function to print the stack from top to bottom
-*/
+#include <stack.h>
+#include <utils.h>
+#include <stdio.h>
+void print_stack(StackNode* node) {
+	while (node != NULL) {
+		printf("%d ", node->value);
+		node = node->next;
+	}
+	printf("\n");
+}
