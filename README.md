@@ -130,12 +130,12 @@ oraz umieszczony w odpowiednich dla nich miejscach w katalogu projektu. Następn
 
 <b>Warunki zaliczenia:</b>
 
-1. Zapoznanie się z tematem laboratorium WIELOPROCESOWOŚĆ W SYSTEMIE UNIX w pliku `skrypt.pdf`
+1. Zapoznanie się z tematem laboratorium <b>WIELOPROCESOWOŚĆ W SYSTEMIE UNIX</b> w pliku `skrypt.pdf`
 2. Przetestowanie w praktyce zawartych tam komend
-3. Umiejętność odpowiedzi na 3 losowe pytania z puli pytań znajdujących się w pliku `lab3/README.md`
-4. Jedna poprawna odpowiedź to 4 punkty, 2 poprawne to 7 punktów, 3 poprawne to 10 punktów
-5. Nie jest wymaganie przesyłanie żadnego rozwiązania na E-Nauczanie
-6. W razie nieobecności studenta na zajęciach, istnieje możliwość napisania odpowiedzi na pytania i przesłanie je na E-Nauczanie, wymóg jest jednak następujący: student musi odpowiedzieć na dowolne 10 z 15 pytań, każde pytanie jest oceniane za 1 punkt
+3. Umiejętność odpowiedzi na pytania z puli pytań znajdujących się w pliku `lab3/README.md`
+4. Są dwa sposoby na zdobycie punktów z tego laboratorium:
+   1. Odpowiedź na 3 losowe pytania podczas zajęć, gdzie: jedna poprawna odpowiedź to 4 punkty, 2 poprawne to 7 punktów, 3 poprawne to 10 punktów. W takim wypadku nie jest wymaganie przesyłanie żadnego rozwiązania na E-Nauczanie.
+   2. Napisanie odpowiedzi na pytania i przesłanie je na E-Nauczanie, wymóg jest jednak następujący: student musi odpowiedzieć na dowolne 10 z 15 pytań, każde pytanie jest oceniane za 1 punkt
 
 ## Laboratorium 4
 
@@ -150,9 +150,180 @@ oraz umieszczony w odpowiednich dla nich miejscach w katalogu projektu. Następn
 
 <b>Warunki zaliczenia:</b>
 
-1. Zapoznanie się z tematem laboratorium WIELOPROCESOWOŚĆ W SYSTEMIE UNIX w pliku `skrypt.pdf`
+1. Zapoznanie się z tematem laboratorium <b>WIELOPROCESOWOŚĆ W SYSTEMIE MS WINDOWS</b> w pliku `skrypt.pdf`
 2. Przetestowanie w praktyce zawartych tam komend
 3. Umiejętność odpowiedzi na 3 losowe pytania z puli pytań znajdujących się w pliku `lab4/README.md`
-4. Jedna poprawna odpowiedź to 4 punkty, 2 poprawne to 7 punktów, 3 poprawne to 10 punktów
-5. Nie jest wymaganie przesyłanie żadnego rozwiązania na E-Nauczanie
-6. W razie nieobecności studenta na zajęciach, istnieje możliwość napisania odpowiedzi na pytania i przesłanie je na E-Nauczanie, wymóg jest jednak następujący: student musi odpowiedzieć na dowolne 10 z 15 pytań, każde pytanie jest oceniane za 1 punkt
+4. Są dwa sposoby na zdobycie punktów z tego laboratorium:
+   1. Odpowiedź na 3 losowe pytania podczas zajęć, gdzie: jedna poprawna odpowiedź to 4 punkty, 2 poprawne to 7 punktów, 3 poprawne to 10 punktów. W takim wypadku nie jest wymaganie przesyłanie żadnego rozwiązania na E-Nauczanie.
+   2. Napisanie odpowiedzi na pytania i przesłanie je na E-Nauczanie, wymóg jest jednak następujący: student musi odpowiedzieć na dowolne 10 z 15 pytań, każde pytanie jest oceniane za 1 punkt
+
+## Laboratorium 5
+
+### Co będzie potrzebne na zajęciach:
+|   | Wymagania:            |                   |           |
+|---|---                    |---                |---        |
+|1. | System operacyjny:    | Windows           |(wymagany) |
+|2. | Interfejs powłoki:    | PowerShell        |(wymagany) |
+|3. | Interpreter poleceń:  | PowerShell        |(wymagany) |
+|4. | Kompilator:           | MinGW             |(wymagany) |
+|5. | Edytor tekstowy:      | <i> dowolny </i>  |           |
+
+<b>Warunki zaliczenia:</b>
+
+1. Zapoznanie się z tematem laboratorium <b>KOMUNIKACJA MIĘDZYPROCESOWA W SYSTEMIE MS WINDOWS</b> w pliku `skrypt.pdf`
+2. Przetestowanie w praktyce zawartych tam komend
+3. Zapoznanie się z kodem, który znajduje się w katalogu `lab5`
+4. Spróbować uruchomić kod oraz zapoznać się z jego działaniem
+5. Jako zadanie do przesłania na E-Nauczanie, przesłać plik tekstowy, w którym znajduje się opis działania komunikacji międzyprocesowej w systemie Windows:
+   1. Jaką rolę pełni nazwany potok `Named Pipe` w tym programie?
+   2. Jak działa synchronizacja między klientem a serwerem?
+   3. Jak serwer odczytuje dane od klienta i jak odpowiada?
+   4. Jak klient i serwer kończą połączenie?
+   5. Jakie błędy mogą wystąpić podczas uruchamiania tego programu?
+
+## Laboratorium 6
+
+### Co będzie potrzebne na zajęciach:
+|   | Wymagania:            |                   |           |
+|---|---                    |---                |---        |
+|1. | System operacyjny:    | Windows           |(wymagany) |
+|2. | Interfejs powłoki:    | PowerShell        |(wymagany) |
+|3. | Interpreter poleceń:  | PowerShell        |(wymagany) |
+|4. | Kompilator:           | MinGW             |(wymagany) |
+|5. | Edytor tekstowy:      | <i> dowolny </i>  |           |
+
+<b>Warunki zaliczenia:</b>
+
+1. Zapoznanie się z tematem laboratorium <b>INTERFEJS GNIAZDEK W SYSTEMIE MS WINDOWS</b> w pliku `skrypt.pdf`
+2. Przetestowanie w praktyce zawartych tam komend
+3. Zapoznanie się z kodem, który znajduje się w katalogu `lab6`
+4. Spróbować uruchomić kod oraz zapoznać się z jego działaniem
+5. Jako zadanie do przesłania na E-Nauczanie, przesłać plik tekstowy, w którym znajduje się opis działania komunikacji za pomocą socket'ów w systemie Windows:
+   1. Jakie zadanie realizuje ten program?
+   2. Jakie kroki wykonuje klient, aby połączyć się z serwerem?
+   3. Jakie funkcje wykorzystuje serwer do obsługi klientów?
+   4. Jakie błędy mogą wystąpić podczas uruchamiania tego programu?
+   5. Jak klient i serwer kończą połączenie?
+
+## Laboratorium 7
+
+### Co będzie potrzebne na zajęciach:
+|   | Wymagania:            |                   |           |
+|---|---                    |---                |---        |
+|1. | System operacyjny:    | Linux             |(wymagany) |
+|2. | Interfejs powłoki:    | Terminal          |(zalecany) |
+|3. | Interpreter poleceń:  | Bash              |(zalecany) |
+|4. | Kompilator:           | gcc               |(zalecany) |
+|5. | Edytor tekstowy:      | <i> dowolny </i>  |           |
+
+<b>Warunki zaliczenia:</b>
+
+1. Zapoznanie się z tematem laboratorium <b>WĄTKI POSIX</b> w pliku `skrypt.pdf`
+2. Przetestowanie w praktyce zawartych tam komend
+3. Zapoznanie się z kodem, który znajduje się w katalogu `lab7`
+4. Spróbować uruchomić kod oraz zapoznać się z jego działaniem
+5. Jako zadanie do przesłania na E-Nauczanie, przesłać plik tekstowy, w którym znajduje się opis działania aplikacji:
+   1. Jaki jest główny cel aplikacji?
+   2. Jakie elementy kodu są odpowiedzialne za uruchamianie wątków?
+   3. Czym zajmują się wątki potomne?
+   4. Ile liczb pierwszych jest wyświetlonych z zadanego przedziału?
+   5. Dlaczego używamy mutex'ów `pthread_mutex_t`?
+   6. W jaki sposób kolejka priorytetowa `pqueue *buffer` jest używana w tym kodzie? Jaki priorytet ma pobierana przez konsumenta liczba?
+   7. Jak zoptymalizowano funkcję `is_prime()` w porównaniu do prostego sprawdzania podzielników?
+   8. Co się stanie, jeśli `current_number` przekroczy `MAX_NUMBER`?
+
+## Laboratorium 8
+
+### Co będzie potrzebne na zajęciach:
+|   | Wymagania:            |                   |           |
+|---|---                    |---                |---        |
+|1. | System operacyjny:    | Linux             |(wymagany) |
+|2. | Interfejs powłoki:    | Terminal          |(zalecany) |
+|3. | Interpreter poleceń:  | Bash              |(zalecany) |
+|4. | Kompilator:           | gcc               |(zalecany) |
+|5. | Edytor tekstowy:      | <i> dowolny </i>  |           |
+
+<b>Warunki zaliczenia:</b>
+
+1. Zapoznanie się z tematem laboratorium <b>POTOKI W SYSTEMIE UNIX</b> w pliku `skrypt.pdf`
+   1. Proszę nie sugerować się zawartym w tym skrypcie zadaniem, oficjalne wymagane zadanie znajduje się w punkcie 5 tej instrukcji. 
+2. Przetestowanie w praktyce zawartych tam komend
+3. Zapoznanie się z kodem, który znajduje się w katalogu `lab8`
+4. Spróbować uruchomić kod oraz zapoznać się z jego działaniem
+5. Jako zadanie do przesłania na E-Nauczanie, przesłać plik tekstowy, w którym znajduje się opis działania aplikacji:
+   1. Co demonstruje zadany program?
+   2. Z ilu procesów składa się zadany program? Co wykonuje każdy z nich?
+   3. Co się dzieje z procesami po wykonaniu swojego zadania?
+   4. Dlaczego program używa `fork()`?
+   5. Jaką rolę pełni funkcja `pipe()` w programie?
+   6. Co by się stało, gdyby program nie używał `waitpid()`?
+   7. Jak program radzi sobie z usunięciem znaku nowej linii `\n`?
+   8. Jaką zmianę w programie musielibyśmy wprowadzić, żeby zamiast zamiany na duże litery, otrzymywać zamiany na małe litery?
+
+## Laboratorium 9
+
+### Co będzie potrzebne na zajęciach:
+|   | Wymagania:            |                   |           |
+|---|-----------------------|-------------------|-----------|
+| 1. | System operacyjny:    | Linux             | (wymagany) |
+| 2. | Interfejs powłoki:    | Terminal          | (zalecany) |
+| 3. | Interpreter poleceń:  | Bash              | (zalecany) |
+| 4. | JDK (Java Development Kit): | OpenJDK / Adoptium JDK | (wymagany) |
+| 5. | Kompilator Java:      | `javac`           | (wymagany) |
+| 6. | Środowisko uruchomieniowe: | JVM (Java Virtual Machine) | (wymagany) |
+| 7. | Menedżer pakietów:    | Maven / Gradle    | (opcjonalny) |
+| 8. | Edytor kodu / IDE:    | VS Code / IntelliJ IDEA / Vim / Nano | (zalecany) |
+| 9. | Wtyczki do VS Code:   | Java Extension Pack | (zalecany) |
+
+
+<b>Warunki zaliczenia:</b>
+
+1. Zapoznanie się z tematem laboratorium <b>WIELOWĄTKOWOŚĆ W JĘZYKU
+JAVA</b> w pliku `skrypt.pdf`
+2. Przetestowanie w praktyce zawartych tam komend
+3. Zapoznanie się z kodem, który znajduje się w katalogu `lab9`
+4. Spróbować uruchomić kod oraz zapoznać się z jego działaniem
+   1. Kompilacja: `javac Main.java`
+   2. Uruchomienie: `java Main`
+5. Jako zadanie do przesłania na E-Nauczanie, przesłać plik tekstowy, w którym znajduje się opis działania aplikacji:
+   1. Co wskazuje na to, że ten program jest wielowątkowy?
+   2. Jaki model implementuje ten program?
+   3. Kiedy mamy sytuację, gdzie wielu użytkowników dokonuje zakupu, jakie musi być zaimplementowane zabezpieczenie, żeby uniknąć wyścigów?
+   4. Co jest warunkiem zakończenia się tego programu?
+   5. Zaproponuj dwie zmiany (modyfikacje w kodzie) wcześniejszego zakończenia pracy programu:
+      1. Magazyn został przepełniony
+      2. Klient nie mógł dokonać zakupu z powodu braku towaru
+
+## Laboratorium 10
+
+### Co będzie potrzebne na zajęciach:
+|   | Wymagania:            |                   |           |
+|---|-----------------------|-------------------|-----------|
+| 1. | System operacyjny:    | Linux             | (wymagany) |
+| 2. | Interfejs powłoki:    | Terminal          | (zalecany) |
+| 3. | Interpreter poleceń:  | Bash              | (zalecany) |
+| 4. | JDK (Java Development Kit): | OpenJDK / Adoptium JDK | (wymagany) |
+| 5. | Kompilator Java:      | `javac`           | (wymagany) |
+| 6. | Środowisko uruchomieniowe: | JVM (Java Virtual Machine) | (wymagany) |
+| 7. | Menedżer pakietów:    | Maven / Gradle    | (opcjonalny) |
+| 8. | Edytor kodu / IDE:    | VS Code / IntelliJ IDEA / Vim / Nano | (zalecany) |
+| 9. | Wtyczki do VS Code:   | Java Extension Pack | (zalecany) |
+
+
+<b>Warunki zaliczenia:</b>
+
+1. Zapoznanie się z tematem laboratorium <b>MONITORY</b> w pliku `skrypt.pdf`
+2. Przetestowanie w praktyce zawartych tam komend
+3. Zapoznanie się z kodem, który znajduje się w katalogu `lab10`
+4. Spróbować uruchomić kod oraz zapoznać się z jego działaniem
+   1. Kompilacja: `javac BinarySemaphore.java SemaphoreDemo.java`
+   2. Uruchomienie: `java SemaphoreDemo`
+5. Jako zadanie do przesłania na E-Nauczanie, przesłać plik tekstowy, w którym znajduje się opis działania aplikacji:
+   1. Co implementuje podglądowy kod źródłowy?
+   2. Ile wątków jest utworzonych w tym programie? Gdzie jest to zdefiniowane?
+   3. Czym jest semafor? Jaką rolę spełnia w tym kodzie? Co by się stało, gdyby nie był zaimplementowany?
+   4. Jaką rolę pełni klasa `BinarySemaphore` w projekcie?
+   5. Gdzie znajduje się sprawdzenie, czy semafor jest aktualnie odblokowany?
+   6. Jaka jest rola try() ... catch() w tym programie?
+   7. Jaką rolę pełni `SemaphoreDemo`?
+   8. Dlaczego `BinarySemaphore` używa `LinkedBlockingQueue` zamiast prostego licznika?
